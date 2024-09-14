@@ -96,7 +96,7 @@ export default function ProductList() {
         <Button
           type="button"
           icon="pi pi-image"
-          label="Image"
+          label="Select rows"
           onClick={(e) => op.current && op.current.toggle(e)}
         />
         <OverlayPanel ref={op}>
